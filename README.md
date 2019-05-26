@@ -1,7 +1,9 @@
 # Kruskal_IN_C_2
 다른 방법으로 크러스컬(Kruskal)알고리즘을 구현해보자.
 
-<h5>Data</h5>
+ <h3>입력</h3>
+ <p>입력으로는 파일로서 데이터를 입력 받게 만들었습니다. "data.txt"에는 아래의 그림과 같은 그래프의 데이터가 들어있습니다.</p>
+ <hr>
 <img src = "http://cslab2.kku.ac.kr/~201721210/graph.jpg" width = "500px" height = "400px"><br>
 <ol>
   <li>"data.txt"파일에 위의 그림과 같은 데이터 형식을 파일 입출력을 통해 얻을 수 있도록 텍스트 파일의 구조로 변경합니다.</li>
@@ -51,6 +53,12 @@ EDGE *read_graph(char *GFile, int *m, int *n)
       </pre>
    </li><br>
  </ol>
+ <br>
+ <h3>출력결과</h3>
+ <p>출력 결과로서 처음 파일의 데이터를 읽고 변수에 저장한 값을 출력하고, 퀵 소트(quick sort)이후 오름차순으로 정렬된 값으로 정렬된 값들을 출력한 뒤에 마지막으로 최소신장트리(BST)의 가중치의 합(sum)을 출력해준다.</p>
+ <hr>
+ <img src = "http://cslab2.kku.ac.kr/~201721210/output.jpg" width = "373px" height = "442px"><br>
+ 
  <br>
  <br>
  
